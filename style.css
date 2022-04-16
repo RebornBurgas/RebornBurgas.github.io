@@ -306,10 +306,9 @@ nav .fa{
 .aboutUs-logo{
     float: right;
     position: relative;
+    max-width: 25%;
 }
 .text-box-aboutUs ul li p{
     position: relative;
 }
-.text-box-aboutUs .aboutUs-logo{
-    max-width: 25%;
-}
+
