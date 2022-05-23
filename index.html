@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="with=device=width, initial-scale=1.0">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
     <title>Green Reborn</title>
+    <link rel="icon" href="images/favicon-32x32.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <link
-            href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
-            rel="stylesheet"  type='text/css'></head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
 <body>
 <section class="header">
     <nav>
@@ -22,9 +22,9 @@
                 <ul>
                     <li><a href="index.html">НАЧАЛО</a></li>
                     <li><a href="about.html">ЗА НАС</a></li>
-                    <li><a href="#">КОНТАКТИ</a></li>
-                    <li><a href="#">ВХОД</a></li>
-                    <li><a href="#">РЕГИСТРАЦИЯ</a></li>
+                    <li><a href="contacts.html">КОНТАКТИ</a></li>
+                    <li><a href="login.html">ВХОД</a></li>
+                    <li><a href="register.html">РЕГИСТРАЦИЯ</a></li>
 
                 </ul>
             </div>
@@ -33,7 +33,7 @@
     <div class="text-box">
         <h1>Правилното място за добиване на знания</h1>
         <p>Проведете урок с избран от Вас учител</p>
-        <a href="#" class="hero-btn">Регистрирай се</a>
+        <a href="register.html" class="hero-btn">Регистрирай се</a>
     </div>
 
 </section>
@@ -136,9 +136,12 @@
 
     function showMenu() {
         navLinks.style.right = "0";
+        navLinks.style.display = "block";
     }
     function hideMenu() {
         navLinks.style.right = "-200px";
+        navLinks.style.display = "none";
+        
     }
 </script>
 
